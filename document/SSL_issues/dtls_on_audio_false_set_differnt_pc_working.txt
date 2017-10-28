@@ -1,0 +1,409 @@
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"type":"offer","sdp":"v=0\r\no=- 4319530202740281612 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Hjpq\r\na=ice-pwd:/Aflf9u10Gw6Az/bDPKA2+9x\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0A:9F:7B:D6:5B:68:DE:78:5B:72:29:8C:10:28:78:FF:3D:A6:1C:C6:21:AC:AD:63:E2:98:EA:5A:B6:BC:75:56\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 98 100 102 127 97 99 101 125\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Hjpq\r\na=ice-pwd:/Aflf9u10Gw6Az/bDPKA2+9x\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0A:9F:7B:D6:5B:68:DE:78:5B:72:29:8C:10:28:78:FF:3D:A6:1C:C6:21:AC:AD:63:E2:98:EA:5A:B6:BC:75:56\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=sendrecv\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtpmap:100 H264/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:102 red/90000\r\na=rtpmap:127 ulpfec/90000\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:125 rtx/90000\r\na=fmtp:125 apt=102\r\na=ssrc-group:FID 1938633627 372653424\r\na=ssrc:1938633627 cname:Zu2D8CXdQIXT28sr\r\na=ssrc:1938633627 msid:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:1938633627 mslabel:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\na=ssrc:1938633627 label:eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:372653424 cname:Zu2D8CXdQIXT28sr\r\na=ssrc:372653424 msid:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:372653424 mslabel:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\na=ssrc:372653424 label:eb608988-5af9-431d-8ba9-159720c2a27e\r\n"}
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:3250736099 1 udp 2122255103 2001::9d38:90d7:286d:32c3:3f57:9b9c 65395 typ host generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:4261819039 1 udp 2122194687 192.168.100.99 65396 typ host generation 0 ufrag Hjpq network-id 2"}
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:3250736099 1 udp 2122255103 2001::9d38:90d7:286d:32c3:3f57:9b9c 65397 typ host generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:4261819039 1 udp 2122194687 192.168.100.99 65398 typ host generation 0 ufrag Hjpq network-id 2"}
+(serversignalhandler.cpp:431):  Received session description :{"type":"offer","sdp":"v=0\r\no=- 4319530202740281612 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Hjpq\r\na=ice-pwd:/Aflf9u10Gw6Az/bDPKA2+9x\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0A:9F:7B:D6:5B:68:DE:78:5B:72:29:8C:10:28:78:FF:3D:A6:1C:C6:21:AC:AD:63:E2:98:EA:5A:B6:BC:75:56\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 98 100 102 127 97 99 101 125\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Hjpq\r\na=ice-pwd:/Aflf9u10Gw6Az/bDPKA2+9x\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0A:9F:7B:D6:5B:68:DE:78:5B:72:29:8C:10:28:78:FF:3D:A6:1C:C6:21:AC:AD:63:E2:98:EA:5A:B6:BC:75:56\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=sendrecv\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtpmap:100 H264/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:102 red/90000\r\na=rtpmap:127 ulpfec/90000\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:125 rtx/90000\r\na=fmtp:125 apt=102\r\na=ssrc-group:FID 1938633627 372653424\r\na=ssrc:1938633627 cname:Zu2D8CXdQIXT28sr\r\na=ssrc:1938633627 msid:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:1938633627 mslabel:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\na=ssrc:1938633627 label:eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:372653424 cname:Zu2D8CXdQIXT28sr\r\na=ssrc:372653424 msid:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj eb608988-5af9-431d-8ba9-159720c2a27e\r\na=ssrc:372653424 mslabel:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj\r\na=ssrc:372653424 label:eb608988-5af9-431d-8ba9-159720c2a27e\r\n"}
+(serversignalhandler.cpp:444): before create_peer_connection
+(peerconnectionhandler.cpp:170): peer connection is created with dtls = 1
+(peerconnectionhandler.cpp:223): got pc configuration size = 8
+(peerconnectionhandler.cpp:230): uri = stun:turn1.wowvision.com:3478?transport=tcp
+(peerconnectionhandler.cpp:230): uri = stun:turn1.wowvision.com:3478?transport=udp
+(peerconnectionhandler.cpp:230): uri = stun:turn2.wowvision.com:3478?transport=tcp
+(peerconnectionhandler.cpp:230): uri = stun:turn2.wowvision.com:3478?transport=tcp
+(peerconnectionhandler.cpp:230): uri = turn:turn1.wowvision.com:3478?transport=tcp
+(peerconnectionhandler.cpp:230): uri = turn:turn1.wowvision.com:3478?transport=udp
+(peerconnectionhandler.cpp:230): uri = turn:turn2.wowvision.com:3478?transport=tcp
+(peerconnectionhandler.cpp:230): uri = turn:turn2.wowvision.com:3478?transport=udp
+(webrtcvideoengine2.cc:616): Internally supported codecs: {VideoCodec[0:VP8], VideoCodec[0:VP9]}
+(opensslidentity.cc:41): Making key pair
+(serversignalhandler.cpp:446): after create_peer_connection
+(opensslidentity.cc:89): Returning key pair
+(opensslidentity.cc:96): Making certificate for WebRTC
+(opensslidentity.cc:143): Returning certificate
+(p2ptransportchannel.cc:400): Set ping most likely connection to 0
+(p2ptransportchannel.cc:420): Set presume writable when fully relayed to 0
+(bitrate_prober.cc:63): Bandwidth probing enabled, set to inactive
+(delay_based_bwe.cc:173): Using Trendline filter for delay change estimation.
+(remote_bitrate_estimator_single_stream.cc:58): RemoteBitrateEstimatorSingleStream: Instantiating.
+(send_side_congestion_controller.cc:185): SignalNetworkState Down
+(paced_sender.cc:279): PacedSender paused.
+(delay_based_bwe.cc:361): BWE Setting start bitrate to: 300000
+(paced_sender.cc:485): ProcessThreadAttached 0x000000BE04645710
+(webrtcvoiceengine.cc:1489): Setting voice channel options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+(webrtcvoiceengine.cc:331): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+(webrtcvoiceengine.cc:481): NetEq capacity is 50
+(webrtcvoiceengine.cc:487): NetEq fast mode? 0
+(webrtcvoiceengine.cc:505): Delay agnostic aec is enabled? 0
+(webrtcvoiceengine.cc:514): Extended filter aec is enabled? 0
+(webrtcvoiceengine.cc:523): Experimental ns is enabled? 0
+(webrtcvoiceengine.cc:529): Intelligibility Enhancer is enabled? 0
+(webrtcvoiceengine.cc:539): Level control: 0
+(audio_processing_impl.cc:640): Level controller activated: 0
+(audio_processing_impl.cc:647): Highpass filter activated: 1
+(webrtcvoiceengine.cc:1508): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+(channel.cc:182): Created channel for audio
+(channel.cc:334): Setting RTP Transport for audio on audio transport 000000BE06A3CF90
+(p2ptransportchannel.cc:400): Set ping most likely connection to 0
+(p2ptransportchannel.cc:420): Set presume writable when fully relayed to 0
+(webrtcvideoengine2.cc:488): CreateChannel. Options: VideoOptions {}
+(webrtcvideoengine2.cc:616): Internally supported codecs: {VideoCodec[0:VP8], VideoCodec[0:VP9]}
+(channel.cc:182): Created channel for video
+(channel.cc:334): Setting RTP Transport for video on video transport 000000BE06A3DD50
+(transportcontroller.cc:638): Set remote transport description on audio
+(p2ptransportchannel.cc:334): Remote supports ICE renomination ? 0
+(transportcontroller.cc:638): Set remote transport description on video
+(p2ptransportchannel.cc:334): Remote supports ICE renomination ? 0
+(webrtcsession.cc:844): Session:1282359451941524545 Old state:STATE_INIT New state:STATE_RECEIVEDOFFER
+(peerconnectionhandler.cpp:106): OnSignalingChange, peed id mwBTJb/G+5+VkkvOKZBXtg==
+(channel.cc:1792): Setting remote voice description
+(webrtcvoiceengine.cc:1317): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[103:ISAC:16000:0:1], AudioCodec[104:ISAC:32000:0:1], AudioCodec[9:G722:8000:0:1], AudioCodec[0:PCMU:8000:0:1], AudioCodec[8:PCMA:8000:0:1], AudioCodec[106:CN:32000:0:1], AudioCodec[105:CN:16000:0:1], AudioCodec[13:CN:8000:0:1], AudioCodec[110:telephone-event:48000:0:1], AudioCodec[112:telephone-event:32000:0:1], AudioCodec[113:telephone-event:16000:0:1], AudioCodec[126:telephone-event:8000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], max_bandwidth_bps: -1, options: AudioOptions {}}
+(webrtcvoiceengine.cc:1706): Recreate all the receive streams because the send codec has changed.
+(webrtcvoiceengine.cc:2158): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+(webrtcvoiceengine.cc:1489): Setting voice channel options: AudioOptions {}
+(webrtcvoiceengine.cc:331): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+(webrtcvoiceengine.cc:481): NetEq capacity is 50
+(webrtcvoiceengine.cc:487): NetEq fast mode? 0
+(webrtcvoiceengine.cc:505): Delay agnostic aec is enabled? 0
+(webrtcvoiceengine.cc:514): Extended filter aec is enabled? 0
+(webrtcvoiceengine.cc:523): Experimental ns is enabled? 0
+(webrtcvoiceengine.cc:529): Intelligibility Enhancer is enabled? 0
+(webrtcvoiceengine.cc:539): Level control: 0
+(audio_processing_impl.cc:640): Level controller activated: 0
+(audio_processing_impl.cc:647): Highpass filter activated: 1
+(webrtcvoiceengine.cc:1508): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+(channel.cc:1734): Changing voice state, recv=0 send=0
+(channel.cc:2065): Setting remote video description
+(webrtcvideoengine2.cc:763): SetSendParameters: {codecs: [VideoCodec[96:VP8], VideoCodec[98:VP9], VideoCodec[100:H264], VideoCodec[102:red], VideoCodec[127:ulpfec], VideoCodec[97:rtx], VideoCodec[99:rtx], VideoCodec[101:rtx], VideoCodec[125:rtx]], extensions: [{uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/playout-delay, id: 6}], max_bandwidth_bps: -1, }
+(webrtcvideoengine2.cc:616): Internally supported codecs: {VideoCodec[0:VP8], VideoCodec[0:VP9]}
+(webrtcvideoengine2.cc:772): Using codec: VideoCodec[96:VP8]
+(webrtcvideoengine2.cc:820): SetFeedbackOptions on all the receive streams because the send codec or RTCP mode has changed.
+(webrtcvideoengine2.cc:1196): AddRecvStream: {id:eb608988-5af9-431d-8ba9-159720c2a27e;ssrcs:[1938633627,372653424];ssrc_groups:{semantics:FID;ssrcs:[1938633627,372653424]};cname:Zu2D8CXdQIXT28sr;sync_label:aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj}
+(video_receive_stream.cc:198): VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 96, payload_name: VP8, codec_params: {}}, {decoder: (VideoDecoder), payload_type: 98, payload_name: VP9, codec_params: {}}], rtp: {remote_ssrc: 1938633627, local_ssrc: 1, rtcp_mode: RtcpMode::kReducedSize, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: on, nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, rtx_ssrc: 372653424, rtx_payload_types: {96 (apt) -> 97 (pt), 98 (apt) -> 99 (pt), }, extensions: []}, renderer: (renderer), render_delay_ms: 10, sync_group: aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj, pre_decode_callback: nullptr, target_delay_ms: 0}
+(call.cc:1009): UpdateAggregateNetworkState: aggregate_state=down
+(send_side_congestion_controller.cc:185): SignalNetworkState Down
+(paced_sender.cc:279): PacedSender paused.
+(channel.cc:1396): Add remote ssrc: 1938633627
+(channel.cc:1987): Changing video state, send=0
+(webrtcsession.cc:657): Local and Remote descriptions must be applied to get the SSL Role of the SCTP transport.
+(webrtcvideoengine2.cc:1311): SetSink: ssrc:1938633627 (ptr)
+(peerconnectionhandler.cpp:329): OnAddStream
+(peerconnectionhandler.cpp:347): video tracks number = 1
+(serversignalhandler.cpp:452): after accept_offer_from_peer call
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:3250736099 1 udp 2122255103 2001::9d38:90d7:286d:32c3:3f57:9b9c 65395 typ host generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:4261819039 1 udp 2122194687 192.168.100.99 65396 typ host generation 0 ufrag Hjpq network-id 2"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:2403448595 1 tcp 1518275327 2001::9d38:90d7:286d:32c3:3f57:9b9c 9 typ host tcptype active generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:3250736099 1 udp 2122255103 2001::9d38:90d7:286d:32c3:3f57:9b9c 65397 typ host generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:2961559151 1 tcp 1518214911 192.168.100.99 9 typ host tcptype active generation 0 ufrag Hjpq network-id 2"}
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:2403448595 1 tcp 1518275327 2001::9d38:90d7:286d:32c3:3f57:9b9c 9 typ host tcptype active generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:4261819039 1 udp 2122194687 192.168.100.99 65398 typ host generation 0 ufrag Hjpq network-id 2"}
+(serversignalhandler.cpp:111): notify_display_numbers = 1
+(serversignalhandler.cpp:519): OnMessageFromPeer() called
+(serversignalhandler.cpp:520): peer id = mwBTJb/G+5+VkkvOKZBXtg==
+(serversignalhandler.cpp:521): {"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:2961559151 1 tcp 1518214911 192.168.100.99 9 typ host tcptype active generation 0 ufrag Hjpq network-id 2"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:2403448595 1 tcp 1518275327 2001::9d38:90d7:286d:32c3:3f57:9b9c 9 typ host tcptype active generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":0,"sdpMid":"audio","candidate":"candidate:2961559151 1 tcp 1518214911 192.168.100.99 9 typ host tcptype active generation 0 ufrag Hjpq network-id 2"}
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:2403448595 1 tcp 1518275327 2001::9d38:90d7:286d:32c3:3f57:9b9c 9 typ host tcptype active generation 0 ufrag Hjpq network-id 1 network-cost 50"}
+(serversignalhandler.cpp:322): OnMessageSent() called
+
+(serversignalhandler.cpp:323):  message = 0
+
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BC388.
+Exception thrown at 0x00007FFE3789871C in StreamRenderer.exe: Microsoft C++ exception: std::runtime_error at memory location 0x000000BE040BCEC8.
+(webrtcsession.cc:1156): ProcessIceMessage: Not ready to use candidate.
+(serversignalhandler.cpp:510):  Received candidate :{"sdpMLineIndex":1,"sdpMid":"video","candidate":"candidate:2961559151 1 tcp 1518214911 192.168.100.99 9 typ host tcptype active generation 0 ufrag Hjpq network-id 2"}
+(webrtcsession.cc:673): Local and Remote descriptions must be applied to get the SSL Role of the session.
+(webrtcsession.cc:673): Local and Remote descriptions must be applied to get the SSL Role of the session.
+(serversignalhandler.cpp:35): `anonymous-namespace'::DummySetSessionDescriptionObserver::OnSuccess
+(webrtcvideoengine2.cc:2484): VideoReceiveStream stats: 3405055, {ssrc: 1938633627, total_bps: 0, width: 0, height: 0, key: 0, delta: 0, network_fps: 0, decode_fps: 0, render_fps: 0, decode_ms: 0, max_decode_ms: 0, cur_delay_ms: 0, targ_delay_ms: 0, jb_delay_ms: 0, min_playout_delay_ms: 0, discarded: 0, sync_offset_ms: 2147483647, cum_loss: 0, max_ext_seq: 0, nack: 0, fir: 0, pli: 0}
+(webrtcvideoengine2.cc:1354): Call stats: 3405055, {send_bw_bps: 300000, recv_bw_bps: 0, max_pad_bps: 0, pacer_delay_ms: 0, rtt_ms: -1}
+(webrtcsession.cc:1079): BUNDLE already enabled for audio on audio.
+(channel.cc:334): Setting RTP Transport for video on audio transport 000000BE06A3CF90
+(call.cc:950): Transport video is disconnected
+(webrtcsession.cc:1095): Enabled BUNDLE for video on audio.
+(transportcontroller.cc:610): Set local transport description on audio
+(p2ptransportchannel.cc:323): Set ICE ufrag: qkKe pwd: 0XtM0q/bNf5RdbuKa9JNJSHh on transport audio
+(dtlstransportchannel.cc:315): Jingle:DtlsTransport[audio|1|__]: DTLS setup complete.
+(channel.cc:904): Channel enabled
+(channel.cc:1734): Changing voice state, recv=0 send=0
+(channel.cc:904): Channel enabled
+(channel.cc:1987): Changing video state, send=0
+(webrtcsession.cc:844): Session:1282359451941524545 Old state:STATE_RECEIVEDOFFER New state:STATE_INPROGRESS
+(peerconnectionhandler.cpp:106): OnSignalingChange, peed id mwBTJb/G+5+VkkvOKZBXtg==
+(channel.cc:1747): Setting local voice description
+(channel.cc:1218): Enabling rtcp-mux for audio; no longer need RTCP transport for audio
+(webrtcvoiceengine.cc:1349): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[103:ISAC:16000:0:1], AudioCodec[104:ISAC:32000:0:1], AudioCodec[9:G722:8000:0:1], AudioCodec[0:PCMU:8000:0:1], AudioCodec[8:PCMA:8000:0:1], AudioCodec[106:CN:32000:0:1], AudioCodec[105:CN:16000:0:1], AudioCodec[13:CN:8000:0:1], AudioCodec[110:telephone-event:48000:0:1], AudioCodec[112:telephone-event:32000:0:1], AudioCodec[113:telephone-event:16000:0:1], AudioCodec[126:telephone-event:8000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}]}
+(webrtcvoiceengine.cc:1518): Setting receive voice codecs.
+(channel.cc:1734): Changing voice state, recv=0 send=0
+(channel.cc:2020): Setting local video description
+(channel.cc:1218): Enabling rtcp-mux for video; no longer need RTCP transport for audio
+(webrtcvideoengine2.cc:989): SetRecvParameters: {codecs: [VideoCodec[96:VP8], VideoCodec[98:VP9], VideoCodec[97:rtx], VideoCodec[99:rtx]], extensions: [{uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/playout-delay, id: 6}]}
+(webrtcvideoengine2.cc:616): Internally supported codecs: {VideoCodec[0:VP8], VideoCodec[0:VP9]}
+(webrtcvideoengine2.cc:2349): RecreateWebRtcStream (recv) because of SetRecvParameters
+(call.cc:1009): UpdateAggregateNetworkState: aggregate_state=down
+(send_side_congestion_controller.cc:185): SignalNetworkState Down
+(paced_sender.cc:279): PacedSender paused.
+(video_receive_stream.cc:228): ~VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 96, payload_name: VP8, codec_params: {}}, {decoder: (VideoDecoder), payload_type: 98, payload_name: VP9, codec_params: {}}], rtp: {remote_ssrc: 1938633627, local_ssrc: 1, rtcp_mode: RtcpMode::kReducedSize, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: on, nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, rtx_ssrc: 372653424, rtx_payload_types: {96 (apt) -> 97 (pt), 98 (apt) -> 99 (pt), }, extensions: []}, renderer: (renderer), render_delay_ms: 10, sync_group: aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj, pre_decode_callback: nullptr, target_delay_ms: 0}
+The thread 0x984 has exited with code 0 (0x0).
+The thread 0x15ec has exited with code 0 (0x0).
+(video_receive_stream.cc:198): VideoReceiveStream: {decoders: [{decoder: (VideoDecoder), payload_type: 96, payload_name: VP8, codec_params: {}}, {decoder: (VideoDecoder), payload_type: 98, payload_name: VP9, codec_params: {}}], rtp: {remote_ssrc: 1938633627, local_ssrc: 1, rtcp_mode: RtcpMode::kReducedSize, rtcp_xr: {receiver_reference_time_report: off}, remb: on, transport_cc: on, nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, rtx_ssrc: 372653424, rtx_payload_types: {96 (apt) -> 97 (pt), 98 (apt) -> 99 (pt), }, extensions: [{uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/playout-delay, id: 6}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}]}, renderer: (renderer), render_delay_ms: 10, sync_group: aXiKEe6vm2Q8zcebvsaAGzwmcyRuNONtPFHj, pre_decode_callback: nullptr, target_delay_ms: 0}
+(call.cc:1009): UpdateAggregateNetworkState: aggregate_state=down
+(send_side_congestion_controller.cc:185): SignalNetworkState Down
+(paced_sender.cc:279): PacedSender paused.
+(channel.cc:1987): Changing video state, send=0
+(webrtcsession.cc:1422): Changing IceConnectionState 0 => 1
+(peerconnectionhandler.cpp:124): OnIceConnectionChange, peer_id mwBTJb/G+5+VkkvOKZBXtg==
+(webrtcsession.cc:662): Non-rejected SCTP m= section is needed to get the SSL Role of the SCTP transport.
+(basicportallocator.cc:274): Start getting ports with prune_turn_ports disabled
+(basicportallocator.cc:676): Network manager has started
+(basicportallocator.cc:594): Allocate ports on 1 networks
+(basicportallocator.cc:1143): Jingle:Net[Realtek:192.168.100.164/32:Unknown]: Allocation Phase=Udp
+(port.cc:214): Jingle:Port[000000BE04633500::1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Port created with network cost 50
+(basicportallocator.cc:1234): AllocationSequence: UDPPort will be handling the STUN candidate generation.
+(basicportallocator.cc:698): Adding allocated port for audio
+(basicportallocator.cc:718): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Added port to allocator
+(basicportallocator.cc:735): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:2628264608:1:udp:2122260223:192.168.100.164:56782:local::0:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:762): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Port ready.
+(physicalsocketserver.cc:621): Socket::OPT_DSCP not supported.
+(p2ptransportchannel.cc:528): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: SetOption(5, 0) failed: 0
+(port.cc:905): Jingle:Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|C--W|0|0|9114756780654476798|-]: Connection created
+(p2ptransportchannel.cc:883): Jingle:Channel[audio|1|__]: Created connection with origin=2, (1 total)
+(p2ptransportchannel.cc:1411): Jingle:Channel[audio|1|__]: Transport channel state changed from 0 to 2
+(transportcontroller.cc:817): audio TransportChannel 1 state changed. Check if state is complete.
+(p2ptransportchannel.cc:1074): Jingle:Channel[audio|1|__]: Have a pingable connection for the first time; starting to ping.
+(basicportallocator.cc:778): Not yet signaling candidate because protocol is not yet enabled.
+(stunport.cc:372): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Starting STUN host lookup for turn1.wowvision.com:3478
+(stunport.cc:372): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Starting STUN host lookup for turn2.wowvision.com:3478
+The thread 0x56c has exited with code 0 (0x0).
+(basicportallocator.cc:894): Signaling candidate because protocol was enabled: Cand[:2628264608:1:udp:2122260223:192.168.100.164:56782:local::0:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+The thread 0xbc has exited with code 0 (0x0).
+(port.cc:1447): Jingle:Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|C--W|0|0|9114756780654476798|-]: Sent STUN ping, id=6f713058304977616a784b49, use_candidate=0, nomination=0
+(peerconnectionhandler.cpp:319): Send Message to peer request recieved
+(peerconnectionhandler.cpp:320): message to send = {
+   "sdp" : "v=0\r\no=- 1282359451941524545 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:qkKe\r\na=ice-pwd:0XtM0q/bNf5RdbuKa9JNJSHh\r\na=ice-options:trickle\r\na=fingerprint:sha-256 BD:65:A2:22:99:DB:25:4C:B3:D8:4C:85:BB:BE:50:AE:8E:F6:FB:9C:42:CB:A5:DD:C1:76:1B:70:AA:C8:38:C1\r\na=setup:active\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=inactive\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 98 97 99\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:qkKe\r\na=ice-pwd:0XtM0q/bNf5RdbuKa9JNJSHh\r\na=ice-options:trickle\r\na=fingerprint:sha-256 BD:65:A2:22:99:DB:25:4C:B3:D8:4C:85:BB:BE:50:AE:8E:F6:FB:9C:42:CB:A5:DD:C1:76:1B:70:AA:C8:38:C1\r\na=setup:active\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\n",
+   "type" : "answer"
+}
+
+(peerconnectionhandler.cpp:34): `anonymous-namespace'::DummySetSessionDescriptionObserver::OnSuccess
+(peerconnectionhandler.cpp:134): OnIceGatheringChange, peer_id = mwBTJb/G+5+VkkvOKZBXtg==
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(p2ptransportchannel.cc:780): A remote candidate arrives with an unknown ufrag: qkKe
+(port.cc:905): Jingle:Conn[000000BE047B4D60:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->hgN/w4jx:1:2122260223:local:udp:192.168.100.164:56782|C--W|0|0|9115038255631187454|-]: Connection created
+(p2ptransportchannel.cc:883): Jingle:Channel[audio|1|__]: Created connection with origin=2, (2 total)
+(p2ptransportchannel.cc:944): Pruning candidate from old generation: [2001::9d38:90d7:286d:32c3:3f57:9b9c]:65395
+(p2ptransportchannel.cc:944): Pruning candidate from old generation: 192.168.100.99:65396
+(p2ptransportchannel.cc:944): Pruning candidate from old generation: [2001::9d38:90d7:286d:32c3:3f57:9b9c]:9
+(p2ptransportchannel.cc:944): Pruning candidate from old generation: 192.168.100.99:9
+(p2ptransportchannel.cc:1411): Jingle:Channel[audio|1|__]: Transport channel state changed from 2 to 1
+(transportcontroller.cc:817): audio TransportChannel 1 state changed. Check if state is complete.
+(peerconnectionhandler.cpp:319): Send Message to peer request recieved
+(peerconnectionhandler.cpp:320): message to send = {
+   "candidate" : "candidate:2628264608 1 udp 2122260223 192.168.100.164 56782 typ host generation 0 ufrag qkKe network-id 1 network-cost 50",
+   "sdpMLineIndex" : 0,
+   "sdpMid" : "audio"
+}
+
+(serversignalhandler.cpp:322): OnMessageSent() called
+
+(serversignalhandler.cpp:323):  message = 0
+
+(serversignalhandler.cpp:322): OnMessageSent() called
+
+(serversignalhandler.cpp:323):  message = 0
+
+(port.cc:1031): Jingle:Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|C--I|0|0|9114756780654476798|-]: Received STUN ping, id=3671654e3735526642386753
+(port.cc:634): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Sent STUN ping response, to=192.168.100.99:65396, id=3671654e3735526642386753
+(p2ptransportchannel.cc:745): Not switching the selected connection on controlled side yet: Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|CR-I|1|0|9114756780654476798|-]
+(p2ptransportchannel.cc:1977): Selecting connection for triggered check: Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|CR-I|1|0|9114756780654476798|-]
+(port.cc:1447): Jingle:Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|CR-I|1|0|9114756780654476798|-]: Sent STUN ping, id=354f704466654875534c7354, use_candidate=0, nomination=0
+(basicportallocator.cc:1143): Jingle:Net[Realtek:192.168.100.164/32:Unknown]: Allocation Phase=Relay
+(port.cc:214): Jingle:Port[000000BE04671750::1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port created with network cost 50
+(basicportallocator.cc:698): Adding allocated port for audio
+(basicportallocator.cc:718): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Added port to allocator
+(turnport.cc:676): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Starting TURN host lookup for turn1.wowvision.com:3478
+(port.cc:214): Jingle:Port[000000BE04680490::1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port created with network cost 50
+(basicportallocator.cc:698): Adding allocated port for audio
+(basicportallocator.cc:718): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Added port to allocator
+(turnport.cc:676): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Starting TURN host lookup for turn1.wowvision.com:3478
+(port.cc:214): Jingle:Port[000000BE04680D40::1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port created with network cost 50
+(basicportallocator.cc:698): Adding allocated port for audio
+The thread 0x9b4 has exited with code 0 (0x0).
+The thread 0xd70 has exited with code 0 (0x0).
+(basicportallocator.cc:718): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Added port to allocator
+(turnport.cc:676): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Starting TURN host lookup for turn2.wowvision.com:3478
+The thread 0x16d4 has exited with code 0 (0x0).
+(port.cc:214): Jingle:Port[000000BE0467D030::1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port created with network cost 50
+(basicportallocator.cc:698): Adding allocated port for audio
+(basicportallocator.cc:718): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Added port to allocator
+(turnport.cc:676): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Starting TURN host lookup for turn2.wowvision.com:3478
+(turnport.cc:304): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Trying to connect to TURN server via tcp @ turn1.wowvision.com:3478
+The thread 0xa58 has exited with code 0 (0x0).
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(turnport.cc:304): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Trying to connect to TURN server via udp @ turn1.wowvision.com:3478
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=2f4f326844654f6735574458
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(turnport.cc:304): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Trying to connect to TURN server via tcp @ turn2.wowvision.com:3478
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(turnport.cc:304): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Trying to connect to TURN server via udp @ turn2.wowvision.com:3478
+(turnport.cc:1123): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=4c6172514e4e4a3851465053
+(thread.cc:258): Waiting for the thread to join, but blocking calls have been disallowed
+(port.cc:1396): Jingle:Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|CR-I|1|0|9114756780654476798|-]: Received STUN ping response, id=354f704466654875534c7354, code=0, rtt=16, pings_since_last_response=6f713058304977616a784b49 354f704466654875534c7354 
+(basicportallocator.cc:968): All candidates gathered for audio:1:0
+(p2ptransportchannel.cc:582): P2PTransportChannel: audio, component 1 gathering complete
+(peerconnectionhandler.cpp:134): OnIceGatheringChange, peer_id = mwBTJb/G+5+VkkvOKZBXtg==
+(p2ptransportchannel.cc:233): Switching selected connection due to sorting
+(p2ptransportchannel.cc:1382): Jingle:Channel[audio|1|R_]: New selected connection: Conn[000000BE069E00F0:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->axGlD46D:1:2122194687:local:udp:192.168.100.99:65396|CRWS|1|0|9114756780654476798|16]
+(port.cc:1143): Jingle:Conn[000000BE047B4D60:audio:hgN/w4jx:1:0:local:udp:192.168.100.164:56782->hgN/w4jx:1:2122260223:local:udp:192.168.100.164:56782|C--W|0|0|9115038255631187454|-]: Connection pruned
+(p2ptransportchannel.cc:1411): Jingle:Channel[audio|1|R_]: Transport channel state changed from 1 to 2
+(transportcontroller.cc:817): audio TransportChannel 1 state changed. Check if state is complete.
+(dtlstransportchannel.cc:670): Jingle:DtlsTransport[audio|1|__]: configuring DTLS handshake timeout 50 based on ICE RTT 16
+(opensslstreamadapter.cc:765): BeginSSL with peer.
+(openssladapter.cc:800): SSL_connect:SSLv3 write client hello A
+(openssladapter.cc:800): SSL_connect:SSLv3 flush data
+(openssladapter.cc:800): SSL_connect:DTLS1 read hello verify request A
+(openssladapter.cc:810): SSL_connect:error in DTLS1 read hello verify request A
+(dtlstransportchannel.cc:583): Jingle:DtlsTransport[audio|1|__]: DtlsTransport: Started DTLS handshake
+(srtpfilter.cc:436): SRTP reset to init state
+(srtpfilter.cc:436): SRTP reset to init state
+(openssladapter.cc:800): SSL_connect:SSLv3 read server hello A
+(openssladapter.cc:800): SSL_connect:SSLv3 read server certificate A
+(openssladapter.cc:800): SSL_connect:unknown state
+(openssladapter.cc:800): SSL_connect:unknown state
+(opensslstreamadapter.cc:1098): Accepted peer certificate.
+(opensslstreamadapter.cc:1098): Accepted peer certificate.
+(openssladapter.cc:800): SSL_connect:SSLv3 read server key exchange A
+(openssladapter.cc:800): SSL_connect:SSLv3 read server certificate request A
+(openssladapter.cc:800): SSL_connect:SSLv3 read server done A
+(openssladapter.cc:800): SSL_connect:SSLv3 write client certificate A
+(openssladapter.cc:800): SSL_connect:SSLv3 write client key exchange A
+(openssladapter.cc:800): SSL_connect:SSLv3 write certificate verify A
+(openssladapter.cc:800): SSL_connect:SSLv3 write change cipher spec
+(openssladapter.cc:800): SSL_connect:unknown state
+(openssladapter.cc:800): SSL_connect:unknown state
+(openssladapter.cc:800): SSL_connect:SSLv3 write finished A
+(openssladapter.cc:800): SSL_connect:SSLv3 flush data
+(openssladapter.cc:800): SSL_connect:SSLv3 read server session ticket A
+(openssladapter.cc:810): SSL_connect:error in SSLv3 read server session ticket A
+(openssladapter.cc:800): SSL_connect:SSLv3 read change cipher spec
+(openssladapter.cc:800): SSL_connect:SSLv3 read finished A
+(openssladapter.cc:800): SSL_connect:unknown state
+(openssladapter.cc:800): SSL_connect:SSL negotiation finished successfully
+(dtlstransportchannel.cc:527): Jingle:DtlsTransport[audio|1|__]: DTLS handshake complete.
+(call.cc:1009): UpdateAggregateNetworkState: aggregate_state=down
+(send_side_congestion_controller.cc:185): SignalNetworkState Down
+(transportcontroller.cc:749):  TransportChannel audio 1 writability changed to 1.
+(paced_sender.cc:279): PacedSender paused.
+(channel.cc:938): Channel writable (audio) for the first time
+(webrtcsession.cc:1454): Changing to ICE connected state because all transports are writable.
+(call.cc:1009): UpdateAggregateNetworkState: aggregate_state=up
+(send_side_congestion_controller.cc:185): SignalNetworkState Up
+(webrtcsession.cc:1422): Changing IceConnectionState 1 => 2
+(paced_sender.cc:291): PacedSender resumed.
+(peerconnectionhandler.cpp:124): OnIceConnectionChange, peer_id mwBTJb/G+5+VkkvOKZBXtg==
+(bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (900000:1687:5)
+(bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (1800000:3375:5)
+(channel.cc:942): Using Cand[:2628264608:1:udp:2122260223:192.168.100.164:56782:local::0:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]->Cand[:4261819039:1:udp:2122194687:192.168.100.99:65396:local::0:Hjpq:/Aflf9u10Gw6Az/bDPKA2+9x:2:0:0]
+(send_side_congestion_controller.cc:302): Bitrate estimate state changed, BWE: 300000 bps.
+(channel.cc:989): Installing keys from DTLS-SRTP on audio RTP
+(bitrate_allocator.cc:83): Current BWE 300000
+(srtpfilter.cc:88): SRTP activated with negotiated parameters: send cipher_suite 2 recv cipher_suite 2
+(channel.cc:938): Channel writable (video) for the first time
+(channel.cc:942): Using Cand[:2628264608:1:udp:2122260223:192.168.100.164:56782:local::0:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]->Cand[:4261819039:1:udp:2122194687:192.168.100.99:65396:local::0:Hjpq:/Aflf9u10Gw6Az/bDPKA2+9x:2:0:0]
+(channel.cc:989): Installing keys from DTLS-SRTP on video RTP
+(srtpfilter.cc:88): SRTP activated with negotiated parameters: send cipher_suite 2 recv cipher_suite 2
+(basicportallocator.cc:735): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:4116868449:1:udp:1686052607:203.122.41.226:56782:stun:192.168.100.164:56782:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:739): Discarding candidate because port is already done gathering.
+(channel.cc:1734): Changing voice state, recv=0 send=0
+(channel.cc:1987): Changing video state, send=0
+(turnport.cc:417): TurnPort connected to 148.72.244.148:3478 using tcp.
+(turnport.cc:1123): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=566342454c41513250663335
+(turnport.cc:1170): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Received TURN allocate error response, id=4c6172514e4e4a3851465053, code=401, rtt=99
+(turnport.cc:1123): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=37573142376e446e5a32566d
+(turnport.cc:1170): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Received TURN allocate error response, id=566342454c41513250663335, code=401, rtt=95
+(turnport.cc:1123): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=736930306a6479314c52554b
+(turnport.cc:1129): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate requested successfully, id=37573142376e446e5a32566d, code=0, rtt=96
+(basicportallocator.cc:735): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:3105739534:1:udp:41885439:148.72.244.148:53641:relay:203.122.41.226:56782:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:739): Discarding candidate because port is already done gathering.
+(basicportallocator.cc:844): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port completed gathering candidates.
+(turnport.cc:921): Jingle:Port[000000BE0467D030:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Scheduled refresh in 540000ms.
+(rtp_stream_receiver.cc:333): Packet received on SSRC: 1938633627 with payload type: 96, timestamp: 633690656, sequence number: 23347, arrival time: 3405372
+(rtp_receiver_video.cc:74): Received first video RTP packet
+(basicportallocator.cc:844): Jingle:Port[000000BE04633500:audio:1:0:local:Net[Realtek:192.168.100.164/32:Unknown]]: Port completed gathering candidates.
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=2f4f326844654f6735574458
+(codec_database.cc:507): Initializing decoder with payload type '96'.
+(turnport.cc:1123): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=736930306a6479314c52554b
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=2f4f326844654f6735574458
+(turnport.cc:1123): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=736930306a6479314c52554b
+(turnport.cc:1129): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate requested successfully, id=736930306a6479314c52554b, code=0, rtt=81
+(basicportallocator.cc:735): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:4154339326:1:udp:25108479:148.72.244.148:53642:relay:203.122.41.226:5312:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:739): Discarding candidate because port is already done gathering.
+(basicportallocator.cc:844): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port completed gathering candidates.
+(turnport.cc:921): Jingle:Port[000000BE04680D40:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Scheduled refresh in 540000ms.
+(probe_controller.cc:203): kWaitingForProbingResult: timeout
+(turnport.cc:417): TurnPort connected to 192.169.179.35:3478 using tcp.
+(turnport.cc:1123): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=3330444d626e56732f746641
+(turnport.cc:1123): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=3330444d626e56732f746641
+(turnport.cc:1170): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Received TURN allocate error response, id=3330444d626e56732f746641, code=401, rtt=34
+(turnport.cc:1123): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=4765546b6e566e5042386b61
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=2f4f326844654f6735574458
+(turnport.cc:1123): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=4765546b6e566e5042386b61
+(turnport.cc:1170): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Received TURN allocate error response, id=2f4f326844654f6735574458, code=401, rtt=284
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=51736a3739695473512f2f55
+(packet_buffer.cc:169): PacketBuffer size expanded to 64
+(turnport.cc:1129): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate requested successfully, id=4765546b6e566e5042386b61, code=0, rtt=418
+(basicportallocator.cc:735): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:4198994365:1:udp:25108991:192.169.179.35:61800:relay:203.122.41.226:5311:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:739): Discarding candidate because port is already done gathering.
+(basicportallocator.cc:844): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port completed gathering candidates.
+(turnport.cc:921): Jingle:Port[000000BE04671750:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Scheduled refresh in 540000ms.
+(turnport.cc:1123): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate request sent, id=51736a3739695473512f2f55
+(turnport.cc:1129): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: TURN allocate requested successfully, id=51736a3739695473512f2f55, code=0, rtt=38
+(basicportallocator.cc:735): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Gathered candidate: Cand[:3032771917:1:udp:41885951:192.169.179.35:61801:relay:203.122.41.226:56782:qkKe:0XtM0q/bNf5RdbuKa9JNJSHh:1:50:0]
+(basicportallocator.cc:739): Discarding candidate because port is already done gathering.
+(basicportallocator.cc:844): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Port completed gathering candidates.
+(turnport.cc:921): Jingle:Port[000000BE04680490:audio:1:0:relay:Net[Realtek:192.168.100.164/32:Unknown]]: Scheduled refresh in 540000ms.
+(packet_buffer.cc:169): PacketBuffer size expanded to 128
+(packet_buffer.cc:169): PacketBuffer size expanded to 256
+(packet_buffer.cc:169): PacketBuffer size expanded to 512
+(receive_statistics_proxy.cc:299): Bad call (any) start: 3413075
+(receive_statistics_proxy.cc:305): Bad call (fps) start: 3413075
+(port.cc:1493): Connection deleted with number of pings sent: 0
+(p2ptransportchannel.cc:1826): Jingle:Channel[audio|1|RW]: Removed connection 000000BE047B4D60 (1 remaining)
+(rtp_stream_receiver.cc:333): Packet received on SSRC: 1938633627 with payload type: 96, timestamp: 634593716, sequence number: 25517, arrival time: 3415371

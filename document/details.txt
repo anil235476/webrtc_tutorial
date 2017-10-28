@@ -1,0 +1,28 @@
+(1) simple_peer_connection.cc
+    kake sEtMandatory DTLSSCtpDataChannelsl
+	and allow audio receive and video src
+
+(2) know abut giving working_thread and signalling thread 
+    in peer connection fatory
+   here is some explanation from source code:-
+    // PeerConnectionFactoryInterface is the factory interface used for creating
+// PeerConnection, MediaStream and MediaStreamTrack objects.
+//
+// The simplest method for obtaiing one, CreatePeerConnectionFactory will
+// create the required libjingle threads, socket and network manager factory
+// classes for networking if none are provided, though it requires that the
+// application runs a message loop on the thread that called the method (see
+// explanation below)
+//
+// If an application decides to provide its own threads and/or implementation
+// of networking classes, it should use the alternate
+// CreatePeerConnectionFactory method which accepts threads as input, and use
+// the CreatePeerConnection version that takes a PortAllocator as an argument.
+(3) remove observer implemenation and make observer to peer_connection class itself.
+(4) replace addstream to Addtrack
+(5) Port allocator can be given in CreatFacotry.
+ kNow about it
+(6) All data is being encrypted by either SRTP(for real time data) or 
+   DTLS(arbitrary data over SCTP).
+	SCTP-> Stream Control Transmission Protocol.
+
