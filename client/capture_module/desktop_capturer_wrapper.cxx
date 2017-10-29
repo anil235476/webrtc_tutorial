@@ -19,7 +19,10 @@ desktop_capturer_wrapper::~desktop_capturer_wrapper() = default;
 
 void desktop_capturer_wrapper::start(webrtc::DesktopCapturer::Callback* ptr) {
 	//assert(ptr);
-	capturer_->Start(this);
+	if (ptr)
+		capturer_->Start(ptr);
+	else
+		capturer_->Start(this);
 }
 
 void desktop_capturer_wrapper::capture() {

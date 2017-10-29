@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include "desktop_capturer_wrapper.h"
+#include "desktop_capturer_callback.h"
 
 using namespace std;
 
@@ -10,7 +11,8 @@ using namespace std;
 int main() {
 	cout << "hi\n";
 	desktop_capturer_wrapper capturer;
-	capturer.start(nullptr);
+	desktop_capturer_callback callback;
+	capturer.start(&callback);
 	capturer.capture();
 	return 0;
 }

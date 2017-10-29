@@ -32,6 +32,8 @@ add_executable( capture_module
 		main.cxx
 		desktop_capturer_wrapper.h
 		desktop_capturer_wrapper.cxx
+		desktop_capturer_callback.h
+		desktop_capturer_callback.cxx
 		
 )
 
